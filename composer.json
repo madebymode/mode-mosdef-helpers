@@ -12,7 +12,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Mosdef\\Helpers\\": "app/"
+      "Mosdef\\Helpers\\": "app/",
+      "Mosdef\\Helpers\\Tests\\": "tests/"
     },
     "files": [
       "app/Support/helpers.php"

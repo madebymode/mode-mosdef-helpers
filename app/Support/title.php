@@ -1,5 +1,5 @@
 <?php
-use Mosdef\Helpers\Support\Pages;
+use Mosdef\Helpers\Support\Pages\Title;
 
 if (!function_exists('title')) {
 

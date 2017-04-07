@@ -1,5 +1,5 @@
 <?php
-use Mosdef\Helpers\Support\Meta;
+use Mosdef\Helpers\Support\Pages\Meta;
 
 if (!function_exists('meta')) {
 
