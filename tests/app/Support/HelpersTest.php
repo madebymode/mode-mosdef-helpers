@@ -2,7 +2,7 @@
 
 namespace Mosdef\Helpers\Tests\App\Support;
 
-class HelpersTest extends Tests\TestCase
+class HelpersTest extends \Tests\TestCase
 {
     public function testTitle()
     {
