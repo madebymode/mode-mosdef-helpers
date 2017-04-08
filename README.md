@@ -8,7 +8,7 @@ Require the package in the composer.json file
 
 ```json
 "require": {
-    "vendor/my-private-repo": "dev-master"
+    "madebymode/mosdef-helpers": "dev-master"
 },
 ```
 
@@ -18,7 +18,7 @@ Add the repository to the composer.json file
 "repositories": [
     {
         "type": "vcs",
-        "url":  "git@bitbucket.org:vendor/my-private-repo.git"
+        "url":  "git@github.com:madebymode/mosdef-helpers.git"
     }
 ]
 ```
