@@ -36,7 +36,7 @@ class HelpersTest extends \Tests\TestCase
         $meta->add('http-equiv', '5; url=http://www.google.com', true);
         $this->assertContains('<meta name="http-equiv" content="5; url=http://www.google.com">', $meta->render());
 
-        $meta->add('http-equiv', '5; url=http://www.google.com', true);
-        $this->assertContains('<meta name="http-equiv" content="5; url=http://www.google.com">', $meta->render());
+        $meta->add('og:image', 'http://domain.com/path/to/image.jpg');
+        $this->assertContains('<meta property="og:image" content="http://domain.com/path/to/image.jpg">', $meta->render());
     }
 }
