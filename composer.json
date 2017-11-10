@@ -9,7 +9,8 @@
   ],
   "require": {
     "php": ">=5.5.0",
-    "laravel/framework": "5.5.*"
+    "laravel/framework": "5.5.*",
+    "madebymode/mode-helpers": "dev-master"
   },
   "autoload": {
     "psr-4": {

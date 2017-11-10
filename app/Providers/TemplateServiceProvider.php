@@ -14,11 +14,10 @@ class TemplateServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        // Create a template tag for the icon helper
         Blade::directive('icon', function ($expression) {
             return "<?php echo icon({$expression}); ?>";
         });
-
-        $this->publishTemplateAssets();
     }
 
     /**
@@ -30,13 +29,4 @@ class TemplateServiceProvider extends ServiceProvider
     {
         //
     }
-
-    protected function publishTemplateAssets()
-    {
-        $this->publishes([
-            dirname(dirname(__DIR__)) . '/resources/views/elements/icon.blade.php'
-                => resource_path('views/elements/icon.blade.php'),
-        ], 'icon-assets');
-    }
-
 }
