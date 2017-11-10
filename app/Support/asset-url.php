@@ -2,12 +2,6 @@
 
 if (!function_exists('asset_url')) {
 
-// TODO: Either remove dependence on Laravel helpers or include core fallbacks:
-// - env
-// - elixir
-// - base_path
-// - public_path
-
     /**
      * Build a web access path for a given asset based on the environment.
      *
