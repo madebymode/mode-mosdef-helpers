@@ -21,5 +21,11 @@
       "app/Support/helpers.php"
     ]
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "stable",
+  "repositories": [
+      {
+          "type": "vcs",
+          "url":  "git@github.com:madebymode/mode-helpers.git"
+      }
+  ]
 }
