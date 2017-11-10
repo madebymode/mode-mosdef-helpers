@@ -18,6 +18,7 @@
       "Mosdef\\Helpers\\Tests\\": "tests/"
     },
     "files": [
+      "vendor/madebymode/mode-helpers/src/helpers.php",
       "app/Support/helpers.php"
     ]
   },
