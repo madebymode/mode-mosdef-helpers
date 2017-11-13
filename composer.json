@@ -10,7 +10,7 @@
   "require": {
     "php": ">=5.5.0",
     "laravel/framework": "5.5.*",
-    "madebymode/mode-helpers": "dev-master"
+    "madebymode/mode-php": "1.0.1"
   },
   "autoload": {
     "psr-4": {
