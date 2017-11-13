@@ -21,6 +21,13 @@
       "app/Support/helpers.php"
     ]
   },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Mosdef\\Helpers\\Providers\\TemplateServiceProvider"
+      ]
+    }
+  },
   "minimum-stability": "stable",
   "repositories": [
       {
