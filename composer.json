@@ -10,7 +10,7 @@
   "require": {
     "php": ">=5.5.0",
     "laravel/framework": "5.5.*",
-    "madebymode/mode-php": "1.0.1"
+    "madebymode/mode-php": "1.0.2"
   },
   "autoload": {
     "psr-4": {
@@ -32,7 +32,7 @@
   "repositories": [
       {
           "type": "vcs",
-          "url":  "git@github.com:madebymode/mode-helpers.git"
+          "url":  "git@github.com:madebymode/mode-php.git"
       }
   ]
 }
