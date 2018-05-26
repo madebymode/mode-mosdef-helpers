@@ -1,3 +1,9 @@
+[1.0.3] - May 26 2018
+
+### Changed
+- Updated Laravel to 5.6
+- Updated PHP to 7.1
+
 [1.0.2] - November 14 2017
 
 ### Changed
