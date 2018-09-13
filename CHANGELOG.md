@@ -1,3 +1,8 @@
+[1.0.4] - May 26 2018
+
+### Changed
+- Updated Laravel to ^5.6
+
 [1.0.3] - May 26 2018
 
 ### Changed
